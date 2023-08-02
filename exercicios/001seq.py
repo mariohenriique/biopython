@@ -13,7 +13,8 @@ seq2 = Seq('CGTA')
 # Pode utilizar a sequência em minúsculo
 seq3 = Seq("agtctcgat")
 
-# Pegando o reverso da sequencia
+# O que foi feito abaixo pode ser feito tanto para proteínas como código genético
+# Pegando o reverso da sequencia (o reverso da outra fita de dna porém no sentido 5'->3')
 revseq1 = seq1.reverse_complement()
 revseq2 = seq2.reverse_complement()
 revseq3 = seq3.reverse_complement()
